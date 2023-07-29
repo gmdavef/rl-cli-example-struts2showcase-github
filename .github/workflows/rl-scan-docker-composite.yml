@@ -1,4 +1,4 @@
-name: RL Scan with gh-action-rl-scanner-only
+name: RL Scan with gh-action-rl-scanner-composite
 
 on:
   workflow_dispatch:
