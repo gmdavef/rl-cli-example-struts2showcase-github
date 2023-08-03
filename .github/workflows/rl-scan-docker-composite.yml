@@ -1,7 +1,7 @@
 name: RL Scan with gh-action-rl-scanner-composite
 
 on:
-  # The "gh-action-rl-scanner-composite" action only works with push and pull_request triggers
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
